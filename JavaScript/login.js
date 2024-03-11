@@ -5,7 +5,7 @@ button.addEventListener("click",(event) => {
 
     if(login == "admin" && senha == "admin"){
         alert("Sucesso");
-        window.location.href = "pages/home-page";
+        window.location.href = "pages/home-page.html";
     }else if(login == ""){
         alert("Preencha os campos corretamente");
     }else{
