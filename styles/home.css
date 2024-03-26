@@ -1,0 +1,165 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(165, 0, 0);
+    border: none;
+    padding: 0;
+
+}
+
+.logo{
+    width: 65px;
+    height: 80px;
+}
+.logo img{
+    width: 65px;
+    height: 75px;
+}
+.menu{
+    margin-top: 5px;
+    border: 10px;
+    display: grid;
+  
+}
+
+.container-pesquisa{
+    height: 80%;
+    margin: 0;
+    
+}
+.categorias{
+    color: white;
+}
+input{
+    border-radius: 15px;
+    width: 350px;
+    height: 30px;
+    justify-content: center;
+}
+
+button{
+    background: transparent;
+    border: none;
+}
+.perfil{
+    width: 35px;
+    display: grid;
+    
+}
+.carrinho{
+    width: 35px;
+    display: grid;
+    
+}
+nav {
+    display: grid;
+    padding: 0%;
+    margin: 0;
+    text-align: center;
+    top:110px;
+    right: 10px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;    
+}
+nav ul{
+    padding: 0%;
+    margin-bottom: 0%;
+}
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 10px;
+    text-decoration: none;
+}
+.cards{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.card-1{
+    border-radius: 15px;
+    background-color: rgb(129, 57, 57);
+    color: #ffffff;  
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+.btn{
+    background: transparent;
+    color: #ffffff;
+}
+
+.mais-vendidos h1 {
+    color: rgb(0, 0, 0);
+    font-family: "Whisper", cursive;
+    font-style: normal;
+    display: grid;
+    justify-content: center; 
+    font-size: 80px;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    header{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(46, 46, 46);
+        border: none;
+        display: flex;
+        margin: 0;
+        padding: 0;    
+    }
+    div .logo{
+        width: 65px;
+        height: 75px;
+        
+    }
+   img{
+    width: 65px;
+    height: 75px;
+   }
+    span{
+        width: 25px;
+        height: 20px;
+    }
+    .menu{
+        margin-top: 9px;
+        
+        
+    }
+    .container-pesquisa{
+        height: 35px;
+    }
+    input{
+        border-radius: 15px;
+        width: 80%;
+        height: 30px;
+        margin-top: 41px;
+    }
+    .material-symbols-outlined{
+        color: aliceblue;
+        margin-top: 15px;
+        
+    }
+    .categorias{
+        display: none;
+    }
+    button{
+        background: transparent;
+        border: none;
+    }
+    
+}
